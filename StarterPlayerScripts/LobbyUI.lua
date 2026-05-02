@@ -1,6 +1,6 @@
 --[[
 Purpose: Basic Don't Drink That lobby UI for queue status and match/opponent preview text.
-Where it goes in Studio: StarterPlayer/StarterPlayerScripts/LobbyUI.lua (LocalScript)
+Where it goes in Studio: StarterPlayer/StarterPlayerScripts/LobbyUI.client.lua (LocalScript)
 Dependencies: ReplicatedStorage/Remotes/StateChanged, RoundResult
 ]]
 

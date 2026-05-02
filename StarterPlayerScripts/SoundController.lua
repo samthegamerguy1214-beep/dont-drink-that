@@ -1,6 +1,6 @@
 --[[
 Purpose: Local sound effects for cup fills, BLEH reactions, and victory chimes in Don't Drink That.
-Where it goes in Studio: StarterPlayer/StarterPlayerScripts/SoundController.lua (LocalScript)
+Where it goes in Studio: StarterPlayer/StarterPlayerScripts/SoundController.client.lua (LocalScript)
 Dependencies: ReplicatedStorage/Remotes/RequestFill, RoundResult
 ]]
 

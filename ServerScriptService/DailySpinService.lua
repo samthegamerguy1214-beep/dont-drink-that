@@ -1,6 +1,6 @@
 --[[
 Purpose: Cosmetic-only daily spin service with 24-hour cooldown and no paid spins/reaction drops.
-Where it goes in Studio: ServerScriptService/DailySpinService.lua (Script)
+Where it goes in Studio: ServerScriptService/DailySpinService.server.lua (Script)
 Dependencies: ReplicatedStorage/GameConfig.lua, CupConfig.lua, Remotes/RequestDailySpin and DailySpinResult
 ]]
 

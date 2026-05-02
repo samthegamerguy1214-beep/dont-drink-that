@@ -1,6 +1,6 @@
 --[[
 Purpose: Saves Don't Drink That cup/straw and reaction equips per-player and reapplies hand cup visuals.
-Where it goes in Studio: ServerScriptService/CustomizationService.lua (Script)
+Where it goes in Studio: ServerScriptService/CustomizationService.server.lua (Script)
 Dependencies: ProgressionService.lua, CupAvatarService.lua, ReplicatedStorage/Remotes
 ]]
 

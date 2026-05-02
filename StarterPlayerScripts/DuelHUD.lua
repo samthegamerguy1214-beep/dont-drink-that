@@ -1,6 +1,6 @@
 --[[
 Purpose: Client phase HUD, timer, instructions, and client-only poisoned spout highlight for Don't Drink That.
-Where it goes in Studio: StarterPlayer/StarterPlayerScripts/DuelHUD.lua (LocalScript)
+Where it goes in Studio: StarterPlayer/StarterPlayerScripts/DuelHUD.client.lua (LocalScript)
 Dependencies: ReplicatedStorage/GameConfig.lua, ReplicatedStorage/Remotes/StateChanged
 ]]
 

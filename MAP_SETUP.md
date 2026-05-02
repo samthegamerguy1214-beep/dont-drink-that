@@ -2,6 +2,30 @@
 
 The scaffold can generate a placeholder plaza and 20 fountain machines automatically. Use this guide for the polished Studio art pass while keeping object names compatible with the scripts.
 
+## Using a free Creator Store fountain model
+
+`FountainBuilder.lua` includes a free-model loading option:
+
+```lua
+local USE_FREE_MODEL = true
+local FOUNTAIN_MODEL_ASSET_ID = "rbxassetid://18492446406"
+local FOUNTAIN_MODEL_FALLBACK_ID = "rbxassetid://10613880684"
+```
+
+Picked assets:
+
+- Primary: `rbxassetid://18492446406` — **Fountain Drink Soda Machine (Sort of Working)** by `@MinecraftPro97k`
+- Backup: `rbxassetid://10613880684` — **Soda Fountain** by `@Candy131000`
+
+To verify the model:
+
+1. Open Roblox Studio.
+2. Make sure the model is saved to the game owner’s inventory if Studio/runtime loading fails.
+3. Run the game and inspect `Workspace > FountainStations > FountainStation_1`.
+4. Confirm the imported model appears and also has generated children named `Spout_1` through `Spout_10`, `PlayerA_Pad`, `PlayerB_Pad`, and `SafeBillboardAnchor`.
+
+Important Roblox caveat: `InsertService:LoadAsset` can fail for free user-uploaded models unless the game owner has added/saved the asset to inventory. The script handles this safely: it tries the primary ID, tries the backup ID, then falls back to a stylized in-code machine. If you want to force the in-code version, set `USE_FREE_MODEL = false` in `FountainBuilder.lua`.
+
 ## Overall arena
 
 - Style: large open outdoor plaza, bright and cartoony.
@@ -140,7 +164,7 @@ Place these around the plaza edge as simple booths, pads, or NPCs. MVP can just 
 - Cosmetic-only prizes: cup colors or patterns.
 - No reaction drops.
 - No paid spins.
-- `DailySpinClient.lua` adds a ClickDetector to this object if present.
+- `DailySpinClient.client.lua` adds a ClickDetector to this object if present.
 
 ## Testing shortcut
 

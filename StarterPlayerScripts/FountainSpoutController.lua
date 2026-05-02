@@ -1,6 +1,6 @@
 --[[
 Purpose: Client click handling for secret poison selection and cup filling at Don't Drink That fountain spouts.
-Where it goes in Studio: StarterPlayer/StarterPlayerScripts/FountainSpoutController.lua (LocalScript)
+Where it goes in Studio: StarterPlayer/StarterPlayerScripts/FountainSpoutController.client.lua (LocalScript)
 Dependencies: ReplicatedStorage/GameConfig.lua, ReplicatedStorage/Remotes/RequestPoison, RequestFill
 ]]
 

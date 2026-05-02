@@ -1,6 +1,6 @@
 --[[
 Purpose: Plays visible Don't Drink That reaction animations when RoundResult reveals poisoned players.
-Where it goes in Studio: StarterPlayer/StarterPlayerScripts/RoundRevealClient.lua (LocalScript)
+Where it goes in Studio: StarterPlayer/StarterPlayerScripts/RoundRevealClient.client.lua (LocalScript)
 Dependencies: ReactionPlayer.lua ModuleScript in StarterPlayerScripts, ReplicatedStorage/Remotes/RoundResult
 ]]
 

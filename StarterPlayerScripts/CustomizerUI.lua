@@ -1,6 +1,6 @@
 --[[
 Purpose: Lightweight Don't Drink That cup/straw customizer and reaction equip panel mockup for MVP.
-Where it goes in Studio: StarterPlayer/StarterPlayerScripts/CustomizerUI.lua (LocalScript)
+Where it goes in Studio: StarterPlayer/StarterPlayerScripts/CustomizerUI.client.lua (LocalScript)
 Dependencies: ReplicatedStorage/CupConfig.lua, ReactionRegistry.lua, Remotes/StateChanged
 ]]
 

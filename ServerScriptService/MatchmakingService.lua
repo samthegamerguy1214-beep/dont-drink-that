@@ -1,6 +1,6 @@
 --[[
 Purpose: Simple 1v1 queue that assigns matched players to open public Fountain station models in Don't Drink That.
-Where it goes in Studio: ServerScriptService/MatchmakingService.lua (Script)
+Where it goes in Studio: ServerScriptService/MatchmakingService.server.lua (Script)
 Dependencies: ReplicatedStorage/GameConfig.lua, ServerScriptService/DuelController.lua, FountainBuilder.lua
 ]]
 

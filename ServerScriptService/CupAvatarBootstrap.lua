@@ -1,6 +1,6 @@
 --[[
 Purpose: Applies each player's saved equipped cup + straw on spawn for lobby Social Flex.
-Where it goes in Studio: ServerScriptService/CupAvatarBootstrap.lua (Script)
+Where it goes in Studio: ServerScriptService/CupAvatarBootstrap.server.lua (Script)
 Dependencies: CupAvatarService.lua, ProgressionService.lua
 ]]
 

@@ -1,6 +1,6 @@
 --[[
 Purpose: Simple client ClickDetector setup for the cosmetic-only Daily Spin Wheel stand.
-Where it goes in Studio: StarterPlayer/StarterPlayerScripts/DailySpinClient.lua (LocalScript)
+Where it goes in Studio: StarterPlayer/StarterPlayerScripts/DailySpinClient.client.lua (LocalScript)
 Dependencies: ReplicatedStorage/Remotes/RequestDailySpin, DailySpinResult
 ]]
 
